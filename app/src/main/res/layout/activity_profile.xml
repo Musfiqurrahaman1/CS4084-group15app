@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F8F9FA">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#FF6B35" android:padding="16dp"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <Button android:id="@+id/btnBackProfile" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Back"
+            android:textColor="#FFFFFF" android:backgroundTint="#E55A24"
+            android:layout_marginEnd="12dp"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Profile &amp; About" android:textColor="#FFFFFF"
+            android:textSize="20sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical" android:padding="16dp">
+
+            <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp" app:cardElevation="4dp"
+                android:layout_marginBottom="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="20dp" android:gravity="center">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="🎓" android:textSize="52sp" android:layout_marginBottom="8dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="DealMate" android:textColor="#FF6B35" android:textSize="28sp"
+                        android:textStyle="bold" android:layout_marginBottom="4dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="Version 1.0 — Final Release"
+                        android:textColor="#9CA3AF" android:textSize="13sp" android:layout_marginBottom="4dp"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="CS4084 Mobile Application Development"
+                        android:textColor="#6B7280" android:textSize="13sp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent" android:layout_height="wrap_content"
+                app:cardCornerRadius="16dp" app:cardElevation="4dp"
+                android:layout_marginBottom="12dp">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                    android:orientation="vertical" android:padding="20dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                        android:text="👥 Group 15 Members" android:textColor="#FF6B35"
+                        android:textSize="17sp" android:textStyle="bold" android:layout_marginBottom="14dp"/>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:layout_marginBottom="12dp">
+                        <TextView android:layout_width="28dp" android:layout_height="wrap_content"
+                            android:text="1." android:textColor="#FF6B35" android:textStyle="bold" android:textSize="15sp"/>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Musfiqur Rahaman" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="ID: 23365943" android:textColor="#6B7280" android:textSize="13sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:layout_marginBottom="12dp">
+                        <TextView android:layout_width="28dp" android:layout_height="wrap_content"
+                            android:text="2." android:textColor="#FF6B35" android:textStyle="bold" android:textSize="15sp"/>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Md Hossain" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="ID: 23365676" android:textColor="#6B7280" android:textSize="13sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal" android:layout_marginBottom="12dp">
+                        <TextView android:layout_width="28dp" android:layout_height="wrap_content"
+                            android:text="3." android:textColor="#FF6B35" android:textStyle="bold" android:textSize="15sp"/>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Jusmir Uddin" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="ID: 23378093" android:textColor="#6B7280" android:textSize="13sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView android:layout_width="28dp" android:layout_height="wrap_content"
+                            android:text="4." android:textColor="#FF6B35" android:textStyle="bold" android:textSize="15sp"/>
+                        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical">
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="Satyam Singh" android:textColor="#1A1A2E" android:textSize="15sp" android:textStyle="bold"/>
+                            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                                android:text="ID: 24086215" android:textColor="#6B7280" android:textSize="13sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

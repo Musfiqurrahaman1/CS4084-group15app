@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F8F9FA">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#FF6B35" android:padding="16dp"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <Button android:id="@+id/btnBackFavourites" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Back"
+            android:textColor="#FFFFFF" android:backgroundTint="#E55A24"
+            android:layout_marginEnd="12dp"/>
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="❤ My Favourites" android:textColor="#FFFFFF"
+                android:textSize="20sp" android:textStyle="bold"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+                android:text="Long press to remove" android:textColor="#FFE0D6"
+                android:textSize="12sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView android:id="@+id/tvEmptyFavourites" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:text="💔 No favourites yet!\n\nBrowse deals and save your favourites."
+        android:textColor="#9CA3AF" android:textSize="16sp" android:gravity="center"
+        android:padding="48dp" android:visibility="gone"/>
+    <ListView android:id="@+id/listFavourites" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:padding="8dp" android:dividerHeight="1dp"/>
+</LinearLayout>

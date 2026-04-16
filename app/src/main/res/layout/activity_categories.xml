@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F8F9FA">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#FF6B35" android:padding="16dp"
+        android:orientation="horizontal" android:gravity="center_vertical">
+        <Button android:id="@+id/btnBackCategories" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="← Back"
+            android:textColor="#FFFFFF" android:backgroundTint="#E55A24"
+            android:layout_marginEnd="12dp"/>
+        <TextView android:id="@+id/tvCategoryTitle" android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:text="Categories"
+            android:textColor="#FFFFFF" android:textSize="20sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <GridLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:columnCount="4" android:padding="8dp" android:background="#FFFFFF">
+        <Button android:id="@+id/btnCatFood" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="🍔 Food" android:textSize="11sp"
+            android:backgroundTint="#FFF0EB" android:textColor="#FF6B35" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatCoffee" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="☕ Coffee" android:textSize="11sp"
+            android:backgroundTint="#FFF0EB" android:textColor="#FF6B35" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatFitness" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="💪 Fitness" android:textSize="11sp"
+            android:backgroundTint="#EDE7F6" android:textColor="#7C4DFF" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatTech" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="💻 Tech" android:textSize="11sp"
+            android:backgroundTint="#EDE7F6" android:textColor="#7C4DFF" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatTransport" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="🚌 Transport" android:textSize="11sp"
+            android:backgroundTint="#E0F7FA" android:textColor="#00BCD4" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatEntertainment" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="🎬 Cinema" android:textSize="11sp"
+            android:backgroundTint="#E8F5E9" android:textColor="#00C853" android:layout_margin="4dp"/>
+        <Button android:id="@+id/btnCatBeauty" android:layout_width="0dp"
+            android:layout_height="wrap_content" android:layout_columnWeight="1"
+            android:text="💇 Beauty" android:textSize="11sp"
+            android:backgroundTint="#FCE4EC" android:textColor="#E91E63" android:layout_margin="4dp"/>
+    </GridLayout>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/rvCategoryDeals"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:padding="8dp" android:clipToPadding="false"/>
+</LinearLayout>

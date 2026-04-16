@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:background="#F8F9FA">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#FF6B35" android:padding="16dp" android:orientation="vertical">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="DealMate 🎓" android:textColor="#FFFFFF" android:textSize="24sp"
+            android:textStyle="bold"/>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="Student discounts near you" android:textColor="#FFE0D6"
+            android:textSize="13sp" android:layout_marginBottom="12dp"/>
+        <EditText android:id="@+id/searchBar" android:layout_width="match_parent"
+            android:layout_height="wrap_content" android:hint="🔍  Search deals or stores..."
+            android:padding="12dp" android:background="@drawable/rounded_input_white"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:paddingStart="8dp" android:paddingEnd="8dp"
+        android:paddingTop="8dp" android:paddingBottom="4dp" android:background="#FFFFFF">
+        <com.google.android.material.chip.ChipGroup android:id="@+id/chipGroup"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            app:singleSelection="true"/>
+    </HorizontalScrollView>
+
+    <androidx.recyclerview.widget.RecyclerView android:id="@+id/recyclerView"
+        android:layout_width="match_parent" android:layout_height="0dp"
+        android:layout_weight="1" android:padding="8dp" android:clipToPadding="false"/>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNav" android:layout_width="match_parent"
+        android:layout_height="wrap_content" android:background="#FFFFFF"
+        app:menu="@menu/bottom_nav_menu"
+        app:itemIconTint="#FF6B35" app:itemTextColor="#FF6B35"/>
+</LinearLayout>
