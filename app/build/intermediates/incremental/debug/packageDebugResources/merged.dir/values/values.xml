@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#7C4DFF</color>
+    <color name="accent_dark">#6200EA</color>
+    <color name="background">#F8F9FA</color>
+    <color name="blue_badge">#2979FF</color>
+    <color name="card_bg">#FFFFFF</color>
+    <color name="chip_bg">#FFF0EB</color>
+    <color name="chip_selected">#FF6B35</color>
+    <color name="green_badge">#00C853</color>
+    <color name="primary">#FF6B35</color>
+    <color name="primary_dark">#E55A24</color>
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#6B7280</color>
+    <color name="yellow_badge">#FFD600</color>
+    <string name="app_name">DealMate</string>
+    <style name="Theme.Group15App" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:windowBackground">@color/background</item>
+    </style>
+</resources>
