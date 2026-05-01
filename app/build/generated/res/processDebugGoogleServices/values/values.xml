@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">796101438704</string>
+    <string name="google_api_key" translatable="false">AIzaSyANJkxx4CuAeIqfviied3IqUJcCsVv15_U</string>
+    <string name="google_app_id" translatable="false">1:796101438704:android:d943abd97d4f5c2cb9e635</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyANJkxx4CuAeIqfviied3IqUJcCsVv15_U</string>
+    <string name="google_storage_bucket" translatable="false">dealmate-49699.firebasestorage.app</string>
+    <string name="project_id" translatable="false">dealmate-49699</string>
+</resources>

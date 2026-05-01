@@ -4,13 +4,19 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.widget.*;
 import androidx.appcompat.app.AppCompatActivity;
+import com.google.firebase.auth.FirebaseAuth;
 import java.util.*;
 
 public class RegisterActivity extends AppCompatActivity {
+
+    private FirebaseAuth mAuth;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+
+        mAuth = FirebaseAuth.getInstance();
 
         EditText etName    = findViewById(R.id.etFullName);
         EditText etEmail   = findViewById(R.id.etEmail);
@@ -27,24 +33,35 @@ public class RegisterActivity extends AppCompatActivity {
         spinner.setAdapter(a);
 
         btnReg.setOnClickListener(v -> {
-            if (etName.getText().toString().trim().isEmpty()) {
-                etName.setError("Required"); return;
-            }
-            if (!etEmail.getText().toString().contains("@")) {
-                etEmail.setError("Valid email required"); return;
-            }
-            if (etPass.getText().toString().length() < 6) {
-                etPass.setError("Min 6 characters"); return;
-            }
+            String name  = etName.getText().toString().trim();
+            String email = etEmail.getText().toString().trim();
+            String pass  = etPass.getText().toString().trim();
+            String id    = etId.getText().toString().trim();
+
+            if (name.isEmpty()) { etName.setError("Required"); return; }
+            if (!email.contains("@")) { etEmail.setError("Valid email required"); return; }
+            if (pass.length() < 6) { etPass.setError("Min 6 characters"); return; }
             if (spinner.getSelectedItem().toString().equals("Select your college")) {
                 Toast.makeText(this, "Please select your college", Toast.LENGTH_SHORT).show(); return;
             }
-            if (etId.getText().toString().trim().length() < 5) {
-                etId.setError("Enter a valid student ID"); return;
-            }
-            Toast.makeText(this, "Welcome to DealMate!", Toast.LENGTH_LONG).show();
-            startActivity(new Intent(this, MainActivity.class));
-            finish();
+            if (id.length() < 5) { etId.setError("Enter a valid student ID"); return; }
+
+            btnReg.setEnabled(false);
+            btnReg.setText("Creating account...");
+
+            mAuth.createUserWithEmailAndPassword(email, pass)
+                .addOnCompleteListener(task -> {
+                    if (task.isSuccessful()) {
+                        Toast.makeText(this, "Welcome to DealMate!", Toast.LENGTH_LONG).show();
+                        startActivity(new Intent(this, MainActivity.class));
+                        finish();
+                    } else {
+                        btnReg.setEnabled(true);
+                        btnReg.setText("Create Account");
+                        Toast.makeText(this, "Registration failed: " +
+                            task.getException().getMessage(), Toast.LENGTH_LONG).show();
+                    }
+                });
         });
 
         tvLogin.setOnClickListener(v -> finish());

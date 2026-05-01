@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "796101438704",
+    "project_id": "dealmate-49699",
+    "storage_bucket": "dealmate-49699.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796101438704:android:d943abd97d4f5c2cb9e635",
+        "android_client_info": {
+          "package_name": "com.example.group15app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANJkxx4CuAeIqfviied3IqUJcCsVv15_U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -11,178 +11,308 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:5:5-66
 11-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:5:22-64
-12
-13    <permission
-13-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
-14        android:name="com.example.group15app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-14-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
-15        android:protectionLevel="signature" />
-15-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
-16
-17    <uses-permission android:name="com.example.group15app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-17-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
-17-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
-18
-19    <application
-19-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:7:5-32:19
-20        android:allowBackup="true"
-20-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:8:9-35
-21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-21-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1bac8957d614a6ff6664ec8178009486\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
-22        android:dataExtractionRules="@xml/data_extraction_rules"
-22-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:9:9-65
-23        android:debuggable="true"
-24        android:extractNativeLibs="false"
-25        android:fullBackupContent="@xml/backup_rules"
-25-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:10:9-54
-26        android:icon="@mipmap/ic_launcher"
-26-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:11:9-43
-27        android:label="DealMate"
-27-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:12:9-33
-28        android:roundIcon="@mipmap/ic_launcher_round"
-28-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:13:9-54
-29        android:supportsRtl="true"
-29-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:14:9-35
-30        android:testOnly="true"
-31        android:theme="@style/Theme.Group15App" >
-31-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:15:9-48
-32        <activity
-32-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:9-22:20
-33            android:name="com.example.group15app.SplashActivity"
-33-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:19-49
-34            android:exported="true" >
-34-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:50-73
-35            <intent-filter>
-35-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:18:13-21:29
-36                <action android:name="android.intent.action.MAIN" />
-36-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:19:17-68
-36-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:19:25-66
-37
-38                <category android:name="android.intent.category.LAUNCHER" />
-38-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:20:17-76
-38-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:20:27-74
-39            </intent-filter>
-40        </activity>
-41        <activity
-41-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:9-80
-42            android:name="com.example.group15app.LoginActivity"
-42-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:19-48
-43            android:exported="false" />
-43-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:54-78
-44        <activity
-44-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:9-80
-45            android:name="com.example.group15app.RegisterActivity"
-45-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:19-51
-46            android:exported="false" />
-46-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:54-78
-47        <activity
-47-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:9-80
-48            android:name="com.example.group15app.MainActivity"
-48-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:19-47
-49            android:exported="false" />
-49-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:54-78
-50        <activity
-50-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:9-80
-51            android:name="com.example.group15app.DealDetailActivity"
-51-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:19-53
-52            android:exported="false" />
-52-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:54-78
-53        <activity
-53-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:9-80
-54            android:name="com.example.group15app.FavouritesActivity"
-54-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:19-53
-55            android:exported="false" />
-55-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:54-78
-56        <activity
-56-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:9-80
-57            android:name="com.example.group15app.CategoriesActivity"
-57-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:19-53
-58            android:exported="false" />
-58-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:54-78
-59        <activity
-59-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:9-80
-60            android:name="com.example.group15app.ProfileActivity"
-60-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:19-50
-61            android:exported="false" />
-61-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:54-78
-62        <activity
-62-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:9-80
-63            android:name="com.example.group15app.MapActivity"
-63-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:19-46
-64            android:exported="false" />
-64-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:54-78
-65        <activity
-65-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:9-80
-66            android:name="com.example.group15app.RatingActivity"
-66-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:19-49
-67            android:exported="false" />
-67-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:54-78
-68
-69        <provider
-69-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
-70            android:name="androidx.startup.InitializationProvider"
-70-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
-71            android:authorities="com.example.group15app.androidx-startup"
-71-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
-72            android:exported="false" >
-72-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
-73            <meta-data
-73-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
-74                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-74-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
-75                android:value="androidx.startup" />
-75-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\1fefc32272797250896936d1f18e63d7\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
-76            <meta-data
-76-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\0f9b8c32fe377803ce98f4d36fecd793\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
-77                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-77-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\0f9b8c32fe377803ce98f4d36fecd793\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
-78                android:value="androidx.startup" />
-78-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\0f9b8c32fe377803ce98f4d36fecd793\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
-79            <meta-data
-79-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
-80                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
-80-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
-81                android:value="androidx.startup" />
-81-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
-82        </provider>
-83
-84        <receiver
-84-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
-85            android:name="androidx.profileinstaller.ProfileInstallReceiver"
-85-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
-86            android:directBootAware="false"
-86-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
-87            android:enabled="true"
-87-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
-88            android:exported="true"
-88-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
-89            android:permission="android.permission.DUMP" >
-89-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
-90            <intent-filter>
-90-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
-91                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
-91-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
-92            </intent-filter>
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:5-79
+12-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:26:22-76
+13
+14    <permission
+14-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.group15app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.group15app.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+19
+20    <application
+20-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:7:5-32:19
+21        android:allowBackup="true"
+21-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:8:9-35
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.13.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c4821dbd8ea9f0ac44bbd1ca2c26752c\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+23        android:dataExtractionRules="@xml/data_extraction_rules"
+23-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:9:9-65
+24        android:debuggable="true"
+25        android:extractNativeLibs="false"
+26        android:fullBackupContent="@xml/backup_rules"
+26-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:10:9-54
+27        android:icon="@mipmap/ic_launcher"
+27-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:11:9-43
+28        android:label="DealMate"
+28-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:12:9-33
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:13:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:14:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.Group15App" >
+32-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:15:9-48
+33        <activity
+33-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:9-22:20
+34            android:name="com.example.group15app.SplashActivity"
+34-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:19-49
+35            android:exported="true" >
+35-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:17:50-73
+36            <intent-filter>
+36-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:18:13-21:29
+37                <action android:name="android.intent.action.MAIN" />
+37-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:19:17-68
+37-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:19:25-66
+38
+39                <category android:name="android.intent.category.LAUNCHER" />
+39-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:20:17-76
+39-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:20:27-74
+40            </intent-filter>
+41        </activity>
+42        <activity
+42-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:9-80
+43            android:name="com.example.group15app.LoginActivity"
+43-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:19-48
+44            android:exported="false" />
+44-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:23:54-78
+45        <activity
+45-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:9-80
+46            android:name="com.example.group15app.RegisterActivity"
+46-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:19-51
+47            android:exported="false" />
+47-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:24:54-78
+48        <activity
+48-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:9-80
+49            android:name="com.example.group15app.MainActivity"
+49-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:19-47
+50            android:exported="false" />
+50-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:25:54-78
+51        <activity
+51-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:9-80
+52            android:name="com.example.group15app.DealDetailActivity"
+52-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:19-53
+53            android:exported="false" />
+53-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:26:54-78
+54        <activity
+54-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:9-80
+55            android:name="com.example.group15app.FavouritesActivity"
+55-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:19-53
+56            android:exported="false" />
+56-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:27:54-78
+57        <activity
+57-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:9-80
+58            android:name="com.example.group15app.CategoriesActivity"
+58-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:19-53
+59            android:exported="false" />
+59-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:28:54-78
+60        <activity
+60-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:9-80
+61            android:name="com.example.group15app.ProfileActivity"
+61-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:19-50
+62            android:exported="false" />
+62-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:29:54-78
+63        <activity
+63-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:9-80
+64            android:name="com.example.group15app.MapActivity"
+64-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:19-46
+65            android:exported="false" />
+65-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:30:54-78
+66        <activity
+66-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:9-80
+67            android:name="com.example.group15app.RatingActivity"
+67-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:19-49
+68            android:exported="false" />
+68-->C:\Users\musfi\AndroidStudioProjects\DealMate\DealMate\app\src\main\AndroidManifest.xml:31:54-78
+69        <activity
+69-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:29:9-46:20
+70            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+70-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:30:13-80
+71            android:excludeFromRecents="true"
+71-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:31:13-46
+72            android:exported="true"
+72-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:32:13-36
+73            android:launchMode="singleTask"
+73-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:33:13-44
+74            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+74-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:34:13-72
+75            <intent-filter>
+75-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:35:13-45:29
+76                <action android:name="android.intent.action.VIEW" />
+76-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+76-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+77
+78                <category android:name="android.intent.category.DEFAULT" />
+78-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+78-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+79                <category android:name="android.intent.category.BROWSABLE" />
+79-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+79-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+80
+81                <data
+81-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+82                    android:host="firebase.auth"
+82-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+83                    android:path="/"
+83-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+84                    android:scheme="genericidp" />
+84-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+85            </intent-filter>
+86        </activity>
+87        <activity
+87-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:47:9-64:20
+88            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+88-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:48:13-79
+89            android:excludeFromRecents="true"
+89-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:49:13-46
+90            android:exported="true"
+90-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:50:13-36
+91            android:launchMode="singleTask"
+91-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:51:13-44
+92            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+92-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:52:13-72
 93            <intent-filter>
-93-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
-94                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
-94-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
-95            </intent-filter>
-96            <intent-filter>
-96-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
-97                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
-97-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
-98            </intent-filter>
-99            <intent-filter>
-99-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
-100                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
-100-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\cedcc83e6e135021c7dd3b8610ddad66\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
-101            </intent-filter>
-102        </receiver>
-103    </application>
-104
-105</manifest>
+93-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:53:13-63:29
+94                <action android:name="android.intent.action.VIEW" />
+94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:17-69
+94-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:36:25-66
+95
+96                <category android:name="android.intent.category.DEFAULT" />
+96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:17-76
+96-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:38:27-73
+97                <category android:name="android.intent.category.BROWSABLE" />
+97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:17-78
+97-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:39:27-75
+98
+99                <data
+99-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:41:17-44:51
+100                    android:host="firebase.auth"
+100-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:42:21-49
+101                    android:path="/"
+101-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:43:21-37
+102                    android:scheme="recaptcha" />
+102-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:44:21-48
+103            </intent-filter>
+104        </activity>
+105
+106        <service
+106-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:66:9-72:19
+107            android:name="com.google.firebase.components.ComponentDiscoveryService"
+107-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:67:13-84
+108            android:directBootAware="true"
+108-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:32:13-43
+109            android:exported="false" >
+109-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:68:13-37
+110            <meta-data
+110-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:69:13-71:85
+111                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+111-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:70:17-109
+112                android:value="com.google.firebase.components.ComponentRegistrar" />
+112-->[com.google.firebase:firebase-auth:22.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c915cadcb9ee46aa9c9b4a1cc1a8ece8\transformed\firebase-auth-22.3.0\AndroidManifest.xml:71:17-82
+113            <meta-data
+113-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c65ac55f5bfdb95fb757c42d7fd40a00\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:12:13-14:85
+114                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar"
+114-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c65ac55f5bfdb95fb757c42d7fd40a00\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:13:17-116
+115                android:value="com.google.firebase.components.ComponentRegistrar" />
+115-->[com.google.firebase:firebase-common-ktx:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\c65ac55f5bfdb95fb757c42d7fd40a00\transformed\firebase-common-ktx-20.4.2\AndroidManifest.xml:14:17-82
+116            <meta-data
+116-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:35:13-37:85
+117                android:name="com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar"
+117-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:36:17-109
+118                android:value="com.google.firebase.components.ComponentRegistrar" />
+118-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:37:17-82
+119        </service>
+120
+121        <provider
+121-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:23:9-28:39
+122            android:name="com.google.firebase.provider.FirebaseInitProvider"
+122-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:24:13-77
+123            android:authorities="com.example.group15app.firebaseinitprovider"
+123-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:25:13-72
+124            android:directBootAware="true"
+124-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:26:13-43
+125            android:exported="false"
+125-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:27:13-37
+126            android:initOrder="100" />
+126-->[com.google.firebase:firebase-common:20.4.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\5d83321363ef7f79e1f8ebe43c6337b2\transformed\firebase-common-20.4.2\AndroidManifest.xml:28:13-36
+127
+128        <activity
+128-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\musfi\.gradle\caches\8.10.2\transforms\7e90c7b0531ccd69c5b9e68e20688058\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+129            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+129-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\musfi\.gradle\caches\8.10.2\transforms\7e90c7b0531ccd69c5b9e68e20688058\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+130            android:exported="false"
+130-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\musfi\.gradle\caches\8.10.2\transforms\7e90c7b0531ccd69c5b9e68e20688058\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+131            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+131-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\musfi\.gradle\caches\8.10.2\transforms\7e90c7b0531ccd69c5b9e68e20688058\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+132
+133        <provider
+133-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:24:9-32:20
+134            android:name="androidx.startup.InitializationProvider"
+134-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:25:13-67
+135            android:authorities="com.example.group15app.androidx-startup"
+135-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:26:13-68
+136            android:exported="false" >
+136-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:27:13-37
+137            <meta-data
+137-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:29:13-31:52
+138                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+138-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:30:17-75
+139                android:value="androidx.startup" />
+139-->[androidx.emoji2:emoji2:1.3.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\6dd1b6b2f76dd2140aa86f3a8de3e7f1\transformed\emoji2-1.3.0\AndroidManifest.xml:31:17-49
+140            <meta-data
+140-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\406c8a088735073d0d81b8ffdc38d76d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+141                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+141-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\406c8a088735073d0d81b8ffdc38d76d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+142                android:value="androidx.startup" />
+142-->[androidx.lifecycle:lifecycle-process:2.6.2] C:\Users\musfi\.gradle\caches\8.10.2\transforms\406c8a088735073d0d81b8ffdc38d76d\transformed\lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+143            <meta-data
+143-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:29:13-31:52
+144                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+144-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:30:17-85
+145                android:value="androidx.startup" />
+145-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:31:17-49
+146        </provider>
+147
+148        <meta-data
+148-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\a54a6c8c67f150dfecc9b2428298ad20\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+149            android:name="com.google.android.gms.version"
+149-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\a54a6c8c67f150dfecc9b2428298ad20\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+150            android:value="@integer/google_play_services_version" />
+150-->[com.google.android.gms:play-services-basement:18.1.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\a54a6c8c67f150dfecc9b2428298ad20\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+151
+152        <receiver
+152-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:34:9-52:20
+153            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+153-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:35:13-76
+154            android:directBootAware="false"
+154-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:36:13-44
+155            android:enabled="true"
+155-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:37:13-35
+156            android:exported="true"
+156-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:38:13-36
+157            android:permission="android.permission.DUMP" >
+157-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:39:13-57
+158            <intent-filter>
+158-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:40:13-42:29
+159                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:17-91
+159-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:41:25-88
+160            </intent-filter>
+161            <intent-filter>
+161-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:43:13-45:29
+162                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:17-85
+162-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:44:25-82
+163            </intent-filter>
+164            <intent-filter>
+164-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:46:13-48:29
+165                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:17-88
+165-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:47:25-85
+166            </intent-filter>
+167            <intent-filter>
+167-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:49:13-51:29
+168                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:17-95
+168-->[androidx.profileinstaller:profileinstaller:1.4.0] C:\Users\musfi\.gradle\caches\8.10.2\transforms\fd65e63247090157bfbbbac8ecd41da5\transformed\profileinstaller-1.4.0\AndroidManifest.xml:50:25-92
+169            </intent-filter>
+170        </receiver>
+171    </application>
+172
+173</manifest>
