@@ -52,17 +52,6 @@
             android:background="@drawable/rounded_input" android:layout_marginBottom="4dp"/>
         <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
             android:text="Your unique ID from your student card"
-            android:textColor="#9CA3AF" android:textSize="11sp" android:layout_marginBottom="16dp"/>
-
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="Card Expiry Date" android:textColor="#1A1A2E" android:textStyle="bold"
-            android:textSize="13sp" android:layout_marginBottom="6dp"/>
-        <EditText android:id="@+id/etExpiryDate" android:layout_width="match_parent"
-            android:layout_height="wrap_content" android:hint="MM/YYYY"
-            android:inputType="number" android:padding="14dp"
-            android:background="@drawable/rounded_input" android:layout_marginBottom="4dp"/>
-        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content"
-            android:text="Card must be currently valid. Re-verified each year."
             android:textColor="#9CA3AF" android:textSize="11sp" android:layout_marginBottom="28dp"/>
 
         <Button android:id="@+id/btnRegister" android:layout_width="match_parent"
